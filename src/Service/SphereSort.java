@@ -54,9 +54,11 @@ public class SphereSort {
 
         } catch (ArithmeticException ex) {
             System.out.println("Arithmetic error message:" + ex.getMessage());
+            return sphereMap;
 
         } catch (Exception ex) {
             System.out.println("Error message:" + ex.getMessage());
+            return sphereMap;
 
         }
 
